@@ -1,0 +1,9 @@
+To download the required dependencies in the `vendor/` folder:
+
+```
+$ mkdir src
+$ cd src
+$ export GOFLAGS=-mod=vendor
+$ export GO111MODULE=on
+$ go mod init github.com/YOUR_GITHUB_USER/YOUR_REPOSITORY_NAME 
+```
